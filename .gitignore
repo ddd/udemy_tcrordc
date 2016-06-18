@@ -76,4 +76,6 @@ tmp
 tmtags
 xcuserdata
 ~*
-spec/example_status_persistence_file.txt.idea
+spec/example_status_persistence_file.txt
+.idea/*
+.idea/workspace.xml
