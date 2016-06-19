@@ -89,16 +89,7 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 end
 
-require 'shoulda/matchers'
-
-Shoulda::Matchers.configure do |config|
-  config.integrate do |with|
-    with.test_framework :rspec
-    with.library :rails
-  end
-end
-
-# Require Capybara-Rails
+# Require RSpec support from Capybara which was pulled in via capybara-rails
 require 'capybara/rspec'
 
 # Load SimpleCoverage
